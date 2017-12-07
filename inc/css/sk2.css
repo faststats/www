@@ -1,0 +1,176 @@
+body {
+    position:fixed;
+	-moz-touch-callout:none;
+	-moz-user-select: none;
+	-ms-user-select: none;
+	-webkit-touch-callout:none;
+	-webkit-user-select: none;
+}
+.grid {
+/*    background-image: url('/inc/images/StatGrid780x980.png');*/
+    background-image: url('/inc/images/StatGrid780x980.jpg');
+	border-color: black;
+	border-style: solid;
+	border-width: 2px;
+	color:  white;
+	font: 10 arial, sans-serif;
+	height: 980px;
+	left: 1px;
+	margin: 0;
+	position: fixed;
+	top: 180px;
+	width: 780px;
+    z-index: 2;
+}
+.which_court {
+    border-radius: 5px;
+    color: darkblue;
+    font-size: 16px;
+    font-weight: bold;
+    height : 30px;
+    left : 5px;
+    position : absolute;
+    top : 40px;
+    width : 80px;
+    z-index : 99;
+}
+.court_basket_right {
+    background-color: black;
+    background-image: url('/inc/images/half_court_basket_right_210x260.jpg');
+    background-repeat: no-repeat;
+    background-size: 100% 100%;
+    border-color: green;
+    border-style: solid;
+    border-width: 1px;
+    height : 260px;
+    left : 800px;
+    position : fixed;
+    top : 30px;
+    width : 210px;
+    z-index : 100;
+}
+.court_basket_left {
+    background-color: black;
+    background-image: url('/inc/images/half_court_basket_left_210x260.jpg');
+    background-repeat: no-repeat;
+    background-size: 100% 100%;
+    border-color: green;
+    border-style: solid;
+    border-width: 1px;
+    height : 260px;
+    left : 800px;
+    position : fixed;
+    top : 300px;
+    width : 210px;
+    z-index : 100;
+}
+.basket_left {
+    background-color: black;
+    border-color: black;
+    border-style: solid;
+    border-width: 1px;
+    height: 1px;
+    left: 44px;
+    margin: 0;
+    position: absolute;
+    top: 130px;
+    width:1px;
+}
+.ft_spot_left {
+    background-color: red;
+    border-color: red;
+    border-style: solid;
+    border-width: 1px;
+    height: 1px;
+    left: 110px;
+    margin: 0;
+    position: absolute;
+    top: 130px;
+    width:1px;
+}
+.basket_right {
+    background-color: black;
+    border-color: black;
+    border-style: solid;
+    border-width: 1px;
+    height: 1px;
+    left: 165px;
+    margin: 0;
+    position: absolute;
+    top: 130px;
+    width:1px;
+}
+.ft_spot_right {
+    background-color: red;
+    border-color: red;
+    border-style: solid;
+    border-width: 1px;
+    height: 1px;
+    left: 100px;
+    margin: 0;
+    position: absolute;
+    top: 130px;
+    width:1px;
+}
+
+.helper {
+    border-color : black;
+    border-style : solid;
+    border-width : 1px;
+    font-family : arial;
+    font-size : 10px;            
+    font-weight : normal;
+    height : 160px;
+    position : fixed;
+    top : 0;
+}
+.hist {
+    font-family : "Verdana,sands-serif";
+    font-size : 16px;            
+    font-weight : bold;  
+}
+.quarters {
+    border-color: black;
+    border-style: solid;
+    border-width: 0;
+    height: 40px;
+    left: 300px;
+    margin: 0;
+    position: fixed;
+    top: 135px;
+    width: 480px;
+}
+.qtrbtn {
+    background: #ededed;
+    border: 1px solid #999;
+    box-shadow: 1px 1px 2px #ccc;
+    border-radius: 3px;
+    color: black;
+    cursor: pointer;
+    height: 40px;
+    font-size:20px;
+    font-weight: bold;
+    margin: 0;
+    position: absolute;
+    top: 0;
+    width: 60px;
+    -moz-box-shadow: 1px 1px 2px #ccc;
+    -webkit-box-shadow: 1px 1px 2px #ccc;
+}
+.btn_pressed {
+    background: red;
+    border: 1px solid #999;
+    -webkit-box-shadow: 1px 1px 2px #ccc;
+    -moz-box-shadow: 1px 1px 2px #ccc;
+    box-shadow: 1px 1px 2px #ccc;
+    border-radius: 3px;
+    color: yellow;
+    cursor: pointer;
+    height: 40px;
+    font-size:20px;
+    font-weight: bold;
+    margin: 0;
+    position: absolute;
+    top: 0;
+    width: 60px;
+}

@@ -1,0 +1,116 @@
+/* Overview Report CSS */
+body, html {
+ /*   -moz-user-select: none;
+    -ms-user-select: none;
+    -webkit-touch-callout: none;
+    -webkit-user-select:  none;
+    position: fixed;
+    width:100%;
+    height:100%;  
+*/}
+iframe {
+    background-color: white;
+    border-color: transparent;
+    border-style: solid;
+    border-width: 1px;
+    overflow: hidden;
+    position: absolute;
+}
+table {
+    border-color: grey;
+    border-spacing: 0;
+    border-style: solid;
+    border-width: 1px;
+    width: 98%;
+}
+thead {
+    background-color: darkblue;
+    border-color: transparent;
+    border-style: solid;
+    border-width: 2px;
+    color: white;
+    font-weight: bold;
+}
+tr {
+    border-color: transparent;
+    border-style: solid;
+    border-width: 1px;
+}
+td {
+    border-color: grey;
+    border-style: solid;
+    border-width: 1px;
+    text-align: center;    
+}
+.good_compare {
+    color: green;
+    font-weight: bold;
+}
+.bad_compare {
+    color: red;
+    font-weight: bold;
+}
+.td_title {
+    font-weight: bold;
+}
+.outer_div {
+    background-color: white;
+    border-color: transparent;
+    border-style: solid;
+    border-width: 1px;
+    height: 667px;
+    left: 0;
+    overflow: hidden;
+    position: absolute;
+    top: 0;
+    width: 375px;
+}
+.area_div {
+    background-color: white;
+    border-color: transparent;
+    border-style: solid;
+    border-width: 1px;
+    overflow: hidden;
+}
+.header {
+    background-color: white;
+    border-color: transparent;
+    border-style: solid;
+    border-width: 2px;
+    left: 0;
+    overflow: hidden;
+    position: absolute;
+    top: 0;
+}
+.info {
+    background-color: white;
+    border-color: transparent;
+    border-style: solid;
+    border-width: 2px;
+    left: 0;
+    overflow: hidden;
+    position: absolute;
+}
+/* HEADER STYLES */
+.hdr_game_info_div {
+    background-color: white;
+    height: 90%;
+    left: 1px;
+    position: fixed;
+    top: 1px;
+    width:50%; 
+}
+.hdr_scoreboard {
+    background-color: white;
+    font-size:200%;
+    height: 90%;
+    left: 50%;
+    position: fixed;
+    top: 0;
+    width:40%;
+} 
+.info_div {
+    margin-top: 3%;
+    position:relative;
+    width: 98%;      
+}

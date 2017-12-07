@@ -1,0 +1,10 @@
+.stat_list {
+    border-color: black;
+    border-style: solid;
+    border-width:1px;
+    height: 90%;
+    left: 50%;
+    position: absolute;
+    top: 2%;
+    width: 48%;
+}

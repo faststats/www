@@ -1,0 +1,75 @@
+
+/*
+body {
+	-moz-touch-callout:none;
+	-moz-user-select: none;
+	-ms-user-select: none;
+	-webkit-touch-callout:none;
+	-webkit-user-select: none;
+	position:fixed;
+}
+.grid {
+	background-image: url('/inc/images/StatGrid780x980.png');
+	border-color: black;
+	border-style: solid;
+	border-width: 2px;
+	color:  white;
+	font: 10 arial, sans-serif;
+	height: 980px;
+	left: 0;
+	margin: 0;
+	position: fixed;
+	top: 180px;
+	width: 780px;
+}
+
+.court {
+    height : 210px;
+    left : 760px;
+    position : fixed;
+    top : 0;
+    width : 260px;
+    z-index : 100;
+    border-color: green;
+    border-style: solid;
+    border-width: 1px;
+}
+.helper {
+    position : fixed;
+    border-color : black;
+    border-style : solid;
+    border-width : 1px;
+    font-family : arial;
+    font-size : 10px;            
+    font-weight : normal;
+    height : 160px;
+    top : 0;
+}
+*/
+.hist {
+    font-family : "Verdana,sands-serif";
+    font-size : 20px;            
+    font-weight : bold;  
+}
+/*
+table.thead {
+    background-image: url('../inc/images/bballskin.jpg');
+    background-repeat: no-repeat;
+    border-left: 1px solid #FFF;
+    border-right: 1px solid #000;
+    border-top: 1px solid #FFF;
+    height: auto;
+    padding-left: 30px;
+    padding-top: 8px;
+}
+*/
+    tr:hover {background-color: #00f0f0}
+/*    td {
+        border-bottom: 1px solid #ddd;
+        border-right: 1px solid #ddd;
+    }
+    tr:nth-child(even) {background-color: #d2d2d2}
+    th {
+        background-color: #4CAF50;
+        color: white;
+    }

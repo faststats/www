@@ -1,0 +1,264 @@
+.framed_div {
+  border-color: red;
+  border-style: solid;
+  border-width: 2px;
+}
+.game_info_div {
+    height: 7%;
+    left: 0;
+    position: absolute;
+    top: 0;
+    width: 99%;
+}
+.shotchart_title {
+    font-size: 14px;
+    font-weight: bold;
+}
+.button_div {
+    height: 92%;
+    left: 0;
+    position: absolute;
+    top: 7%;
+    width: 49%;
+}
+.court_div {
+    height: 92%;
+    left: 50%;
+    position: absolute;
+    top: 7%;
+    width: 49%;
+}
+.param_button {
+    color: darkblue;
+    font-family : "Verdana,sands-serif";
+    font-size : 15px;            
+    font-weight : bold;  
+    height: 24px;
+    margin: 0;
+    position: absolute;
+    text-align: center;
+    width: 145px;
+}
+.team_button {
+    left: 2%;
+    top: 1%;
+}
+.opp_button {
+    left: 52%;
+    top: 1%;
+}
+.divider_HR {
+    background-color: darkblue;
+    color: darkblue;
+    height: 2px;
+    left: 1%;
+    position: absolute;
+    top: 8%;
+    width: 98%;
+}
+.player_param_button {
+    color: darkblue;
+    font-family : "Verdana,sands-serif";
+    font-size : 15px;            
+    font-weight : bold;  
+    height: 24px;
+    margin: 0;
+    position: absolute;
+    text-align: center;
+    width: 140px;
+}
+.court_title {
+    color: darkblue;
+    font-size: 1em;
+    font-weight: bold;
+    left: 40px;
+    position: absolute;
+    top: -10px;
+    width: 90%;
+}
+.game_court {
+    background-image: url('../../images/half_court_257x224.jpg');
+    border-color: grey;
+    border-style: solid;
+    border-width: 1px;
+    box-shadow: 0 4px 8px 0 rgba(0, 0, 0, 0.6), 0 6px 20px 0 rgba(0, 0, 0, 0.19);
+    height: 224px;
+    left: 15%;
+    position: absolute;
+    top: 7%;
+    width: 257px;
+}
+.stats_div {
+    height: 80%;
+    left: 0;
+    position: absolute;
+    top: 20%;
+    width: 100%;
+}
+.basket {
+    background-color: black;
+    border-color: black;
+    border-style: solid;
+    border-width: 1px;
+    height: 1px;
+    left: 128px;
+    margin: 0;
+    position: absolute;
+    top: 177px;
+    width:1px;
+}
+.ft_spot {
+    background-color: red;
+    border-color: red;
+    border-style: solid;
+    border-width: 1px;
+    height: 1px;
+    left: 128px;
+    margin: 0;
+    position: absolute;
+    top: 107px;
+    width:1px;
+}
+.home_button {
+  height:auto;
+  left:87%;
+  position: absolute;
+  top: 0;
+  width:12%;
+  z-index: 10;
+}
+.toggle_stats {
+  border-color: darkblue;
+  border-radius: 4px;
+  border-width: 1px;
+  box-shadow: 0 4px 8px 0 rgba(0, 0, 0, 0.6), 0 6px 20px 0 rgba(0, 0, 0, 0.19);
+  color:darkblue;
+  font-size: 1em;
+  height:24px;
+  left: 5px;
+  position: absolute;
+  top: 220px;
+}
+.selected_button {
+    border-color: red;
+    border-style: solid;
+    border-width: 3px;
+    color: red;
+    font-family : "Verdana,sands-serif";
+    font-weight : bold;  
+    text-transform: uppercase;
+}
+.basket_dot {
+    background-color: black;
+    border-radius: 5px;
+    border-style: solid;
+    border-width: 1px;
+    font-size: 8px;
+    font-weight: bold;
+    height: 10px;
+    margin: 0;
+    opacity: .7;
+    position: absolute;
+    width:10px;
+
+}
+.basket_dot_made {
+    background-color: green;
+    border-color: darkgreen;
+    color: yellow;
+}
+.basket_dot_missed {
+    background-color: red;
+    border-color: darkred;
+    color: yellow;
+}
+.statline_table {
+    border-collapse: collapse;
+    box-shadow: 0 4px 8px 0 rgba(0, 0, 0, 0.6), 0 6px 20px 0 rgba(0, 0, 0, 0.19);
+    font-family: "Trebuchet MS", Arial, Helvetica, sans-serif;
+    left: 20%;
+    position: absolute;
+    width: 79%;
+}
+.statline_table td {
+    border-color: black;
+    border-style: solid;
+    border-width: 1px;
+    padding: 0;
+    text-align:center;
+}
+.statline_table tr:nth-child(even){
+    background-color: #b6f0f9;
+    padding-bottom: 0;
+    padding-top: 0;
+}
+.statline_table tr:nth-child(odd) {
+        padding-bottom: 0;
+        padding-top: 0;
+}
+.statline_table  thead {
+    background-color: darkblue;
+    color: gold;
+    font-weight:bold;
+    padding-bottom: 0;
+    padding-top: 0;
+    text-align: center;
+}
+.qtr_select {
+    background-color: lightgrey;
+    border-color: black;
+    border-radius: 3px;
+    border-style: solid;
+    border-width: 1px;
+    box-shadow: 0 4px 8px 0 rgba(0, 0, 0, 0.2), 0 6px 20px 0 rgba(0, 0, 0, 0.19);
+    font-size: 12px;
+    font-weight: bold;
+    height: 175px;
+    left: 4px;
+    position: absolute;
+    top: 5px;
+    width: 50px;
+}
+.btn_qtr {
+    height:25px;
+    left:2px;
+    position:absolute;
+    top:25px;
+    width:43px;
+}
+button:disabled, button[disabled]{
+    color: grey;
+    font-family : "Verdana,sands-serif";
+    font-size : 15px;            
+    font-weight : bold;  
+    height: 24px;
+    margin: 0;
+    position: absolute;
+    text-align: center;
+}
+.TSP_formula {
+    border-color: grey;
+    border-radius: 3px;
+    border-style: solid;
+    border-width: 1px;
+    box-shadow: 0 4px 8px 0 rgba(0, 0, 0, 0.2), 0 6px 20px 0 rgba(0, 0, 0, 0.19);
+    left: 20%;
+    position: absolute;
+    top: 65%;
+    width: 70%;
+}
+.qtr0 {
+    top: 25px;
+}
+.qtr1 {
+    top: 55px;
+}
+.qtr2 {
+    top: 85px;
+}
+.qtr3 {
+    top: 115px;
+}
+.qtr4 {
+    top: 145px;
+}

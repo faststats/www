@@ -1,0 +1,272 @@
+/* Darrell Oller Typography */
+body {
+  font-family: Arial, "Helvetica Neue", Helvetica, sans-serif;
+  font-size: 100%;
+  font-style: normal;
+  font-variant: normal;
+  font-weight: 400;
+}
+
+body, caption, th, td, input, textarea, select, option, legend, fieldset, h1, h2, h3, h4, h5, h6 {
+  font-size-adjust: 0.5;
+}
+
+.splash {
+    font-size: 2em;
+    font-weight: bold;
+    line-height: 1em;
+}
+.title {
+    font-size: 1.5em;
+    font-weight: bold;
+    line-height: 1.5em;
+}
+p {
+    color: black;
+    font-size: 1.3em;
+    line-height: 1.3em;
+}
+table {
+  border-collapse: collapse;
+  border-color: grey;
+  border-style: solid;
+  border-width: 2px;
+  font-size:1em;
+  line-height: 1em;
+}
+caption {
+  background-color: transparent;
+  color: darkblue;
+  font-size: 1.3em;
+  font-weight:bold;
+  line-height: 1.3em;
+}
+th {
+  background-color: darkblue;
+  border-color: grey;
+  border-style: solid;
+  border-width: 2px;
+  color: gold;
+  font-size: 1.1em;
+  font-weight:bold;
+  line-height: 1.1em;
+}
+td {
+  background-color: white;
+  border-color: grey;
+  border-style: solid;
+  border-width: 1px;
+  color: darkblue;
+  font-size: 1.0em;
+  font-weight: bold;
+  line-height: 1em;
+  text-align: center;
+}
+button {
+  font-size: 1.5em;
+  font-weight: bold;
+  line-height: 1.5em;
+}
+.outer {
+  background-color: transparent;
+  border-color: lightgrey;
+  border-style: solid;
+  border-width: 1px;
+  height: 98%;
+  left: 1%;
+  position: absolute;
+  top: 1%;
+}
+.debug_framed {
+  border-color: magenta;
+  border-style: solid;
+  border-width: 2px;
+} 
+.prod_frame {
+  border-color: cyan;
+  border-style: solid;
+  border-width: 2px;
+}
+.shadow {
+   -moz-box-shadow:    inset 0 0 100px #000000;
+   -webkit-box-shadow: inset 0 0 100px #000000;
+   box-shadow:         inset 0 0 100px #000000;
+}
+.shadow1 .content {
+  background-color: #DDD;
+  padding: 200px;
+  position: relative; /* This protects the inner element from being blurred */
+}
+.CSSIndicator {
+  background-color: transparent;
+  color: grey;
+  display: inline-block;
+  height: 2em;
+  left: 60%;
+  position: absolute;
+  text-align: right;
+  top: 0;
+  width: 39%;
+}  
+@media screen and (max-height: 300em) and (orientation: portrait) {
+/* Samsung S6 Active */
+  button {
+    font-size: 3.5em;
+    font-weight: bold;
+    line-height: 2.5em;
+  }
+p {
+    color: black;
+    font-size: 1em;
+    line-height: .8em;
+}
+  table {
+    border-collapse: collapse;
+    border-color: green;
+    border-style: solid;
+    border-width: 2px;
+    font-size: 2.4em;
+    line-height: 2rem;
+  }
+  .CSSIndicator {
+    background-color: transparent;
+    color: green;
+    display: inline-block;
+    height: 2em;
+    left: 60%;
+    position: absolute;
+    text-align: right;
+    top: 0;
+    width: 39%;
+  }
+}
+@media screen and (max-height: 80em) and (orientation: portrait) {
+ /* Acer One 10 */
+  button {
+    font-size: 1.8em;
+    font-weight: bold;
+    line-height: 1.2em;
+  }
+p {
+    color: black;
+    font-size: 1.0em;
+    line-height: .8em;
+}
+  table {
+    border-collapse: collapse;
+    border-color: blue;
+    border-style: solid;
+    border-width: 2px;
+    font-size: 1.1em;
+    line-height: 0.7rem;
+    width: 100%;
+  }
+  .CSSIndicator {
+  background-color:transparent;
+    color: blue;
+    display: inline-block;
+    height: 2em;
+    left: 60%;
+    position: absolute;
+    text-align: right;
+    top: 0;
+  }
+}
+@media screen and (max-height: 40em) and (orientation: portrait) {
+ /* Acer One 10 */
+  button {
+    font-size: 1.0em;
+    font-weight: bold;
+    line-height: 0.8em;
+  }
+p {
+    color: black;
+    font-size: 1.0em;
+    line-height: 0.4em;
+}
+  table {
+    border-collapse: collapse;
+    border-color: blue;
+    border-style: solid;
+    border-width: 2px;
+    font-size: 1.0em;
+    line-height: 0.7rem;
+  }
+  .CSSIndicator {
+  background-color:transparent;
+    color: red;
+    display: inline-block;
+    height: 2em;
+    left: 60%;
+    position: absolute;
+    text-align: right;
+    top: 0;
+    width: 39%;
+  }
+}
+@media screen and (max-height: 45em) and (orientation: landscape) {
+  button {
+    font-size: 1.5em;
+    font-weight: bold;
+    line-height: 1.3em;
+  }
+p {
+    color: black;
+    font-size: 1.5em;
+    line-height: 0.7em;
+}
+  table {
+    border-collapse: collapse;
+    border-color: darkblue;
+    border-style: solid;
+    border-width: 2px;
+    font-size:1.3em;
+    line-height: 1.1rem;
+  }
+  .CSSIndicator {
+    background-color:transparent;
+    color: blue;
+    display: inline-block;
+    height: 2em;
+    left: 60%;
+    position: absolute;
+    text-align: right;
+    top: 0;
+    width: 39%;
+  }
+
+}  
+@media screen and (max-height: 20em) and (orientation: landscape) {
+  button {
+    font-size: 1em;
+    font-weight: bold;
+    line-height: .7em;
+  }
+  p {
+    color: black;
+    font-size: 0.8em;
+    line-height: 0.6em;
+  }
+  table {
+    border-collapse: collapse;
+    border-color: red;
+    border-style: solid;
+    border-width: 2px;
+    font-size:1.0em;
+    line-height: 0.7rem;
+  }
+  tbody {
+    overflow: scroll;
+  }   
+  .CSSIndicator {
+    background-color:transparent;
+    color: red;
+    display: inline-block;
+    height: 2em;
+    left: 60%;
+    position: absolute;
+    text-align: right;
+    top: 0;
+    width: 39%;
+  }
+}  

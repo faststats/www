@@ -1,0 +1,368 @@
+.chart_param_div {
+    border-color: black;
+    border-style: solid;
+    border-width: 1px;
+    font-family : "Verdana,sands-serif";
+    font-size : 16px;            
+    font-weight : normal;  
+    height: 200px;
+    left: 2px;
+    margin: 0;
+    position: absolute;
+    top: 80px;
+    width: 300px;
+}
+.param_button {
+    color: darkblue;
+    font-family : "Verdana,sands-serif";
+    font-size : 15px;            
+    font-weight : bold;  
+    height: 24px;
+    margin: 0;
+    position: absolute;
+    text-align: center;
+    width: 190px;
+}
+.player_param_button {
+    color: darkblue;
+    font-family : "Verdana,sands-serif";
+    font-size : 15px;            
+    font-weight : bold;  
+    height: 24px;
+    margin: 0;
+    position: absolute;
+    text-align: center;
+    width: 140px;
+}
+button:disabled, button[disabled]{
+    color: grey;
+    font-family : "Verdana,sands-serif";
+    font-size : 15px;            
+    font-weight : bold;  
+    height: 24px;
+    margin: 0;
+    position: absolute;
+    text-align: center;
+}
+.selected_button {
+    border-color: red;
+    border-style: solid;
+    border-width: 3px;
+    color: red;
+    font-family : "Verdana,sands-serif";
+    font-weight : bold;  
+    text-transform: uppercase;
+}
+.court {
+    background-repeat: no-repeat;
+    background-size: 100% 100%;
+    border-color: black;
+    border-style: solid;
+    border-width: 2px;
+    margin: 0;
+    position: absolute;
+}
+
+.game_court {
+    height: 315px;
+    left: 20px;
+    top: 295px;
+    width: 390px;
+}
+.q1_court {
+    height: 210px;
+    left: 450px;
+    top: 40px;
+    width: 260px;
+}
+.q2_court {
+    height: 210px;
+    left: 750px;
+    top: 40px;
+    width: 260px;
+}
+.q3_court {
+    height: 210px;
+    left: 450px;
+    top: 330px;
+    width: 260px;
+}
+.q4_court {
+    height: 210px;
+    left: 750px;
+    top: 330px;
+    width: 260px;
+}
+.q5_court {
+    display: none;
+    height: 210px;
+    left: 20px;
+    top: 100px;
+    width: 390px;
+}
+.q6_court {
+    display: none;
+    height: 210px;
+    left: 20px;
+    top: 100px;
+    width: 390px;
+}
+.q7_court {
+    display: none;
+    height: 210px;
+    left: 20px;
+    top: 100px;
+    width: 390px;
+}
+.title {
+    border-color: black;
+    border-style: solid;
+    border-width: 0;
+    font-family : "Verdana,sands-serif";
+    font-size : 18px;            
+    font-weight : bold;  
+    margin: 0;
+    position: absolute;
+    text-align: center;
+}
+.game_title {
+    height: 20px;
+    left: 20px;
+    top: 275px;
+    width: 390px;
+}
+.q1_title {
+    height: 20px;
+    left: 450px;
+    top: 20px;
+    width: 260px;
+}
+.q2_title {
+    height: 20px;
+    left: 750px;
+    top: 20px;
+    width: 260px;
+}
+.q3_title {
+    height: 20px;
+    left: 450px;
+    top: 310px;
+    width: 260px;
+}
+.q4_title {
+    height: 20px;
+    left: 750px;
+    top: 310px;
+    width: 260px;
+}
+.q5_title {
+    display: none;
+    height: 315px;
+    left: 20px;
+    top: 100px;
+    width: 390px;
+}
+.q6_title {
+    display: none;
+    height: 315px;
+    left: 20px;
+    top: 100px;
+    width: 390px;
+}
+.q7_title {
+    display: none;
+    height: 315px;
+    left: 20px;
+    top: 100px;
+    width: 390px;
+}
+.basket {
+    background-color: black;
+    border-color: black;
+    border-style: solid;
+    border-width: 1px;
+    height: 1px;
+    left: 129px;
+    margin: 0;
+    position: absolute;
+    top: 165px;
+    width:1px;
+}
+.game_basket {
+    background-color: black;
+    border-color: black;
+    border-style: solid;
+    border-width: 1px;
+    height: 1px;
+    left: 194px;
+    margin: 0;
+    position: absolute;
+    top: 248px;
+    width:1px;
+}
+.basket_dot {
+    background-color: black;
+    border-radius: 8px;
+    border-style: solid;
+    border-width: 1px;
+    font-size: 12px;
+    font-weight: bold;
+    height: 16px;
+    margin: 0;
+    opacity: .7;
+    position: absolute;
+    width:16px;
+
+}
+.basket_dot_made {
+    background-color: green;
+    border-color: green;
+    color: yellow;
+}
+.basket_dot_missed {
+    background-color: red;
+    border-color: red;
+    color: yellow;
+}
+.stat_line {
+    border-color: black;
+    border-style: solid;
+    border-width: 0;
+    font-family : "Verdana,sands-serif";
+    font-size : 12px;            
+    font-weight : bold;  
+    margin: 0;
+    position: absolute;
+    text-align: center;
+}
+.game_stat_line {
+    height: 20px;
+    left: 20px;
+    top: 580px;
+    width: 395px;
+}
+.q1_stat_line {
+    height: 20px;
+    left: 450px;
+    top: 235px;
+    width: 265px;
+}
+.q2_stat_line {
+    height: 20px;
+    left: 750px;
+    top: 235px;
+    width: 265px;
+}
+.q3_stat_line {
+    height: 20px;
+    left: 450px;
+    top: 515px;
+    width: 265px;
+}
+.q4_stat_line {
+    height: 20px;
+    left: 750px;
+    top: 515px;
+    width: 265px;
+}
+.q5_stat_line {
+    display: none;
+    height: 315px;
+    left: 20px;
+    top: 105px;
+    width: 390px;
+}
+.q6_stat_line {
+    display: none;
+    height: 315px;
+    left: 20px;
+    top: 105px;
+    width: 390px;
+}
+.q7_stat_line {
+    display: none;
+    height: 315px;
+    left: 20px;
+    top: 105px;
+    width: 390px;
+}
+.statline_table {
+    border-collapse: collapse;
+    font-family: "Trebuchet MS", Arial, Helvetica, sans-serif;
+    width: 100%;
+}
+.statline_table td {
+    border-color: black;
+    border-style: solid;
+    border-width: 0;
+    padding: 0;
+    text-align:center;
+}
+.statline_table tr:nth-child(even){
+    background-color: #b6f0f9;
+    padding-bottom: 0;
+    padding-top: 0;
+}
+.statline_table tr:nth-child(odd) {
+        padding-bottom: 0;
+        padding-top: 0;
+}
+.statline_table  thead {
+    background-color: darkblue;
+    color: gold;
+    font-weight:bold;
+    padding-bottom: 0;
+    padding-top: 0;
+    text-align: center;
+}
+.analytics {
+    border-color: darkblue;
+    border-style: solid;
+    border-width: 2px;
+    font-family : "Verdana,sands-serif";
+    font-size : 16px;            
+    font-weight : bold;  
+    height: 58px;
+    left: 480px;
+    margin: 0;
+    position: absolute;
+    text-align: center;
+    top: 610px;
+    width: 490px;
+}
+.analytics_table {
+    border-collapse: collapse;
+    font-family: "Trebuchet MS", Arial, Helvetica, sans-serif;
+    width: 490px;
+}
+.analytics_table td {
+    border-color: darkblue;
+    border-style: solid;
+    border-width: 1;
+    padding: 0;
+    text-align:center;
+}
+.analytics_table tr:nth-child(even){
+    background-color: #b6f0f9;
+    padding-bottom: 0;
+    padding-top: 0;
+}
+.analytics_table tr:nth-child(odd) {
+        padding-bottom: 0;
+        padding-top: 0;
+}
+/*
+.statline_table tr:hover {
+    background-color: #5555aa;
+    color: gold;
+}
+*/
+.analytics_table  thead {
+    background-color: darkblue;
+    color: gold;
+    font-weight:bold;
+    padding-bottom: 0;
+    padding-top: 0;
+    text-align: center;
+}
+

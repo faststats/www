@@ -1,0 +1,242 @@
+/* Coaches CSS */
+body, html {
+  -moz-user-select: none;
+  -ms-user-select: none;
+  -webkit-touch-callout: none;
+  -webkit-user-select:  none;
+}
+.events_div_title {
+  border-color: transparent;
+  border-style: solid;
+  border-width: 2px;
+  height:10%;
+  left: 1%;
+  position: absolute;
+  text-align: center;
+  top: 1%;
+  width: 60%;
+}
+.event_list {
+  height:89%;
+  left: 1%;
+  position: absolute;
+  text-align: left;
+  top: 10%;
+  width: 49%;
+}
+.home_button {
+  height:auto;
+  left:90%;
+  position: absolute;
+  top:1%;
+  width:9%;
+
+}
+.info_div {
+  height:89%;
+  left: 50%;
+  position: absolute;
+  text-align: center;
+  top: 10%;
+  width: 49%;
+}
+.framed_div {
+  border-color: red;
+  border-style: solid;
+  border-width: 2px;
+
+}
+.info_text_div {
+  border-color: transparent;
+  border-style: solid;
+  border-width: 2px;
+  text-align: center;
+  width: 98%;
+}
+.info_scoreboard {
+  box-shadow: 0 4px 8px 0 rgba(0, 0, 0, 0.6), 0 6px 20px 0 rgba(0, 0, 0, 0.19);  
+  left: 5%;
+  position: absolute;
+  text-align: center;
+  top: 42%;
+  width: 90%;
+}
+.info_buttons {
+  color: darkblue;
+  height:2em;
+  left: 1%;
+  position: absolute;
+  text-align: center;
+  top: 85%;
+  width: 98%;
+}
+.info_button {
+  color: darkblue;
+  height:2em;
+}
+.score_table {
+  border-collapse: collapse;
+  border-color: darkblue;
+  border-style: solid;
+  border-width: 2px;
+  text-align: center;
+}
+.tbl_head {
+  background-color: darkblue;
+  color: white;
+  font-weight: bold;
+}
+.score_row {
+  background-color: lightgrey;
+  color: darkblue;
+  font-weight: bold;
+}
+.win {
+  color: green;
+}
+.loss {
+  color: red;
+}
+.usual {
+  color: gray;
+}
+.scroller::-webkit-scrollbar-track
+{
+    -webkit-box-shadow: inset 0 0 6px rgba(0,0,0,0.9);
+    background-color: transparent;
+    border-radius: 2px;
+    box-shadow:  inset 0 0 6px rgba(0,0,0,0.9);
+}
+
+.scroller::-webkit-scrollbar
+{
+    background-color: transparent;
+    border-color: lightgrey;
+    width: 10px;
+}
+
+.scroller::-webkit-scrollbar-thumb
+{
+    background-color: #D62929;
+    background-image: -webkit-linear-gradient(90deg, transparent, rgba(0, 0, 0, 0.4) 50%,transparent,transparent);
+    border-radius: 10px;
+}
+.scroller {
+    overflow-x: hidden;
+    overflow-y: auto;
+}
+
+.menu_item {
+    margin: 0 0 5px 0; 
+} 
+.device_info {
+  display: inline-block;
+  height: 98%;
+  left: 60%;
+  position: absolute;
+  text-align: right;
+  top: 1%;
+  width: 39%;
+}  
+.event_label {
+  display: inline-block;
+  height: 30%;
+  left: 1%;
+  position: absolute;
+  text-align: left;
+  top: 1%;
+  width: 98%;
+} 
+.report_div {
+  display: none;
+  height: 98%;
+  left: 1px;
+  overflow: hidden;
+  position: absolute;
+  top: 1%;
+  width: 98%;
+} 
+  .overview_info {
+    height: 78%;
+    left: 0;
+    overflow: hidden;
+    position: absolute;
+    top: 22%;
+    width: 98%;
+  }
+  .scoreboard_table {
+    height:99%;
+    text-align: center;
+    width:100%;
+  }
+.good_compare {
+    color: green;
+    font-weight: bold;
+}
+.bad_compare {
+    color: red;
+    font-weight: bold;
+}
+.overview_game_info {
+    height: 32%;
+    left: 0;
+    overflow: hidden;
+    position: absolute;
+    text-align: center;
+    top: 1%;
+    width: 48%;
+}
+.overview_scoreboard_div {
+    height: 27%;
+    left: 50%;
+    overflow: hidden;
+    position: absolute;
+    text-align: center;
+    top: 0;
+    width: 38%;
+}
+.info_outer {
+    height: 75%;
+    left: 1%;
+    overflow: hidden;
+    position: absolute;
+    text-align: center;
+    top: 28%;
+    width: 98%;
+}
+.overview_shooting_table {
+    height: auto;
+    left: 0;
+    overflow: hidden;
+    position: absolute;
+    text-align: center;
+    top: 0;
+    width: 49%;
+}
+.overview_rebounding_table {
+    height: auto;
+    left: 50%;
+    overflow: hidden;
+    position: absolute;
+    text-align: center;
+    top: 0;
+    width: 49%;
+}
+.overview_basic_table {
+    height: auto;
+    left: 0;
+    overflow: hidden;
+    position: absolute;
+    text-align: center;
+    top: 35%;
+    width: 49%;
+}
+.overview_analytic_table {
+    height: auto;
+    left: 50%;
+    overflow: hidden;
+    position: absolute;
+    text-align: center;
+    top: 35%;
+    width: 49%;
+}

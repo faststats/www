@@ -1,0 +1,12 @@
+.outer {
+    background-color: black;
+    left: 0;
+    position: absolute;
+    size: 100% 100%;
+    top: 0;
+}
+iframe {
+    border-style: none;
+    display:none;
+}
+

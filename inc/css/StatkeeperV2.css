@@ -1,0 +1,101 @@
+body {
+    position:fixed;
+	-moz-touch-callout:none;
+	-moz-user-select: none;
+	-ms-user-select: none;
+	-webkit-touch-callout:none;
+	-webkit-user-select: none;
+}
+.grid {
+/*    background-image: url('/inc/images/StatGrid780x980.png');*/
+    background-image: url('/inc/images/StatGrid780x980.jpg');
+	border-color: black;
+	border-style: solid;
+	border-width: 2px;
+	color:  white;
+	font: 10 arial, sans-serif;
+	height: 980px;
+	left: 0px;
+	margin: 0;
+	position: fixed;
+	top: 180px;
+	width: 780px;
+    z-index: 2;
+}
+
+.court {
+    background-color: black;
+    background-image: url('/inc/images/HalfCourtBasketBottom.png');
+    background-repeat: no-repeat;
+    background-size: 100% 100%;
+    border-color: green;
+    border-style: solid;
+    border-width: 1px;
+    height : 210px;
+    left : 810px;
+    position : fixed;
+    top : 0;
+    width : 260px;
+    z-index : 100;
+}
+.helper {
+    border-color : black;
+    border-style : solid;
+    border-width : 1px;
+    font-family : arial;
+    font-size : 10px;            
+    font-weight : normal;
+    height : 160px;
+    position : fixed;
+    top : 0;
+}
+.hist {
+    font-family : "Verdana,sands-serif";
+    font-size : 16px;            
+    font-weight : bold;  
+}
+.quarters {
+    border-color: black;
+    border-style: solid;
+    border-width: 0;
+    height: 40px;
+    left: 300px;
+    margin: 0;
+    position: fixed;
+    top: 135px;
+    width: 480px;
+}
+.qtrbtn {
+    background: #ededed;
+    border: 1px solid #999;
+    box-shadow: 1px 1px 2px #ccc;
+    border-radius: 3px;
+    color: black;
+    cursor: pointer;
+    height: 40px;
+    font-size:20px;
+    font-weight: bold;
+    margin: 0;
+    position: absolute;
+    top: 0;
+    width: 60px;
+    -moz-box-shadow: 1px 1px 2px #ccc;
+    -webkit-box-shadow: 1px 1px 2px #ccc;
+}
+.btn_pressed {
+    background: red;
+    border: 1px solid #999;
+    -webkit-box-shadow: 1px 1px 2px #ccc;
+    -moz-box-shadow: 1px 1px 2px #ccc;
+    box-shadow: 1px 1px 2px #ccc;
+    border-radius: 3px;
+    color: yellow;
+    cursor: pointer;
+    height: 40px;
+    font-size:20px;
+    font-weight: bold;
+    margin: 0;
+    position: absolute;
+    top: 0;
+    width: 60px;
+}
